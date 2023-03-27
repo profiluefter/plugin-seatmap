@@ -1,0 +1,6 @@
+@baseUrl = https://localhost:7226
+
+
+################################################## Values
+GET {{baseUrl}}/Values/Persons
+#####

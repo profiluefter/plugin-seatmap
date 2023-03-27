@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>net6.0</TargetFramework>
@@ -9,6 +9,10 @@
     <PropertyGroup Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::Linux)))' == 'true'">
         <RuntimeIdentifier>linux-x64</RuntimeIdentifier>
     </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="GrueneisR.RestClientGenerator" Version="1.1.2" />
+    </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\core\Core.AuthLib\Core.AuthLib.csproj" />
