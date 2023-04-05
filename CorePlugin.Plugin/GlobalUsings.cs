@@ -19,7 +19,8 @@ global using Microsoft.OpenApi.Models;
 //global using Microsoft.EntityFrameworkCore;
 //global using NorthwindDb;
 
-//global using CorePlugin.Plugin.Dtos;
+global using CorePlugin.Plugin.Dtos;
+global using CorePlugin.Plugin.Models;
 //global using CorePlugin.Plugin.Entities;
 //global using CorePlugin.Plugin.Hubs;
 global using CorePlugin.Plugin.Services;

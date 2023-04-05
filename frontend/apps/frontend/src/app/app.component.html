@@ -1,0 +1,57 @@
+<!-- {{getStudentNamesAsList()|json}} -->
+<div class="flex">
+  <select class="w-1/10 appearance-none bg-gray-200 border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+          [(ngModel)]="selectedClazzName" (ngModelChange)="onClazzSelected()">
+    <option *ngFor="let name of clazzNames" [value]="name">{{name}}</option>
+  </select>
+  <button class="1/10">
+    <img src="assets/refresh.png" class="button-icon" (click)="refresh()" />
+  </button>
+  <button class="1/10">
+    <img src="assets/open.png" class="button-icon" (click)="isFileImportVisible=!isFileImportVisible" />
+  </button>
+  <button class="1/10">
+    <img src="assets/export-csv.png" class="button-icon" (click)="exportCsv()" />
+  </button>
+  <button class="1/10">
+    <img src="assets/export-word.png" class="button-icon" (click)="exportWord()" />
+  </button>
+  <span class="w-4/10">
+    <button class="inline bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded"
+            [class.active]="selectedRoomName===roomName"
+            *ngFor="let roomName of roomNames"
+            (click)="useRoom(roomName)">{{roomName}}</button>
+  </span>
+  <span class="w-1/10 border-2 border-gray-400 rounded-md">
+    <span [class.highlight]="!isEnoughPcs()">{{getStudentNamesAsList().length}}</span>
+    <span>Schüler</span>
+  </span>
+  <span class="w-1/10 border-2 border-gray-400 rounded-md">
+    <!-- <span class="text-blue-600">{{selectedRoomName}}</span>: -->
+    <span [class.highlight]="!isEnoughPcs()">{{getNrUnblockedSeats()}}</span>
+    /
+    <span>{{seatsOfCurrentRoom.length}}</span>
+    PCs
+  </span>
+</div>
+
+<div *ngIf="isFileImportVisible">
+  <input type="file" class="file-input" (change)="onFileSelected($event)" #fileUpload>
+  <button class="inline bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded"
+          (click)="fileUpload.click()">
+    Ok
+  </button>
+</div>
+
+<div class="flex">
+  <textarea class="1/5" rows="33" [(ngModel)]="studentsOfSelectedClazz"></textarea>
+  <div #screen style="background-color: rgb(240,240,240)">
+    <app-seat-display></app-seat-display>
+  </div>
+</div>
+<!-- <button class="inline bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded"
+        (click)="makeImage()">makeImage</button>
+<img src="{{img}}" /> -->
+<div *ngIf="isGeneratingWordFile" class="absolute bg-gray-400/60 inset-0 flex justify-center items-center z-10">
+  <p class="text-4xl text-black-800 font-bold">Word-File wird erzeugt...</p>
+</div>

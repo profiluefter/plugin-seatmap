@@ -1,0 +1,59 @@
+.cell {
+  height: 7em;
+  width: 12em;
+  font-size: 12px;
+}
+
+.seat {
+  border: 1px solid black;
+  // background-color: rgb(255, 255, 248);
+  background-color: rgb(243, 243, 190);
+}
+
+.brushStudent {
+  background-color: rgb(177, 223, 242);
+  font-weight: bold;
+}
+
+$empty-stripe-color:rgb(241, 238, 238);
+
+.brushPcEmpty {
+  background-color: white;
+  background: repeating-linear-gradient(-45deg, white, white 15px, $empty-stripe-color 15px, $empty-stripe-color 18px);
+}
+
+$blocked-color:rgb(243, 101, 101);
+
+.brushPcBlocked {
+  background-color: white;
+  background: repeating-linear-gradient(45deg, white, white 15px, $blocked-color 15px, $blocked-color 18px);
+}
+
+.seat-title {
+  background-color: lightgray;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.seat-pill {
+  margin-bottom: 0.6em;
+}
+
+.isSeatToFront {
+  margin-left: 0px;
+  margin-top: 10px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+.isSeatToBack {
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+}
+
+.student-image {
+  height: 5.4em;
+  float: right;
+}

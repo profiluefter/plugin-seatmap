@@ -1,6 +1,46 @@
 @baseUrl = https://localhost:7226
 
 
+################################################## classes
+GET {{baseUrl}}/classes
+#####
+
+################################################## Create
+POST {{baseUrl}}/Create
+Content-type: application/json
+
+{
+   "clazzName": "abc",
+   "roomName": "abc",
+   "imageBase64": "abc",
+   "studentPcList":
+   [{
+      "studentName": "abc",
+      "pcNr": 1
+   }]
+}
+#####
+
+################################################## DownloadTestFile
+GET {{baseUrl}}/DownloadTestFile
+#####
+
+################################################## ReadFile
+GET {{baseUrl}}/ReadFile?fileName=abc&fullPath=abc
+#####
+
+################################################## rooms
+GET {{baseUrl}}/rooms
+#####
+
+################################################## seats
+GET {{baseUrl}}/seats?roomName=abc
+#####
+
+################################################## students
+GET {{baseUrl}}/students
+#####
+
 ################################################## Values
 GET {{baseUrl}}/Values/Persons
 #####

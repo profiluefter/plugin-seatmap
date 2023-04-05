@@ -14,9 +14,46 @@
       <PackageReference Include="GrueneisR.RestClientGenerator" Version="1.1.2" />
     </ItemGroup>
 
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>7</VersionMinor>
+      <VersionMajor>8</VersionMajor>
+      <Guid>00020905-0000-0000-c000-000000000046</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+      <Private>True</Private>
+    </COMReference>
+  </ItemGroup>
+
     <ItemGroup>
       <ProjectReference Include="..\core\Core.AuthLib\Core.AuthLib.csproj" />
       <ProjectReference Include="..\core\Core.Plugin.Interface\Core.Plugin.Interface.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="csv\seatmappings_eg33.csv">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="csv\seatmappings_og05.csv">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="csv\seatmappings_og07.csv">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="csv\seatmappings_og08.csv">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="csv\seatmappings_og29.csv">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="csv\students.csv">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Update="generatedDocs\GeneratedDocFilesComeHere.txt">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
     </ItemGroup>
 
 </Project>

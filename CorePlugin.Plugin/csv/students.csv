@@ -1,0 +1,473 @@
+studentLongname;studentForename;studentKlasse;postCode;city
+Bauer;Samuel;1m;4780;Schärding
+Beslija;Enis;1m;4950;Altheim
+Buhar;Aldo;1m;4755;Zell/Pram
+Eder;Antonia;1m;4770;Andorf
+Elrahman;Anas;1m;4971;Aurolzmünster
+Fallenegger;Pascal;1m;4072;Alkoven
+Freimüller;Elias;1m;4600;Thalheim bei Wels
+Friedl;Lukas;1m;4722;Peuerbach
+Gärtner;Jonas;1m;4631;Krenglbach
+Hofinger;Christoph;1m;4712;Michaelnbach
+Hummel;Mario;1m;3033;Altlengbach
+Jungwirth;Marcel;1m;4760;Raab
+Köttstorfer;Alexander;1m;4085;Waldkirchen am Wesen
+Mayr;Sarah;1m;4070;Eferding
+Pop;Eleonora;1m;4910;Ried i.I.
+Reiter;Alexandra;1m;4702;Wallern
+Schönleitner;Sebastian;1m;4722;Peuerbach
+Senzenberger;Jonas;1m;4682;Geboltskirchen
+Aspöck;Noah;1a;4921;Hohenzell
+Bangerl;Lena;1a;4932;Kirchheim
+Berghammer;Jonas;1a;4931;Mettmach
+Bertoldi;Maximilian;1a;4775;Taufkirchen/Pr.
+Demiryürek;Batuhan;1a;4910;Ried i.I.
+Diab;Pascal;1a;4715;Taufkirchen/Tr.
+Edlbauer;Mario;1a;4716;Taufkirchen/Tr.
+Erler;Dominik;1a;4910;Pattigham
+Gaubinger;Fabian;1a;4714;Meggenhofen
+Geßwagner;David;1a;4676;Aistersheim
+Greifeneder;Maximilian;1a;4715;Taufkirchen/Tr.
+Hightower;Marc;1a;4921;Hohenzell
+Hinterbauer;Mario;1a;4682;Geboltskirchen
+Hodeib;Daniel;1a;4754;Andrichsfurt
+Huemer;Niclas;1a;4680;Haag a.H.
+Kiss;Attila;1a;4910;Ried i.I.
+Krötzl;Leon;1a;4714;Meggenhofen
+Lehner;Arthur;1a;4714;Meggenhofen
+Lindner;Florian;1a;4921;Hohenzell
+Müller;Moritz;1a;4675;Weibern
+Nemeth;Richard;1a;4910;Ried i.I.
+Obermair;Christian;1a;4714;Meggenhofen
+Obermair;Martin;1a;4714;Meggenhofen
+Ofner;Jeannie;1a;4971;Aurolzmünster
+Ogrodnik;Laura;1a;4681;Rottenbach
+Schild;Sebastian;1a;4972;Utzenaich
+Schneiderbauer;Lukas;1a;4971;Aurolzmünster
+Spisak;Michael;1a;4932;Kirchheim
+Weiß;Julian;1a;4716;Taufkirchen/Tr.
+Wiesner;Philipp;1a;4710;St.Georgen
+Yüksek;Denizhan;1a;4710;St.Georgen
+Adlesgruber;Stefan;1b;4722;Peuerbach
+Auinger;Clemens;1b;4730;Waizenkirchen
+Auinger;Elias;1b;4975;Suben
+Barth;Alexander;1b;4724;Neukirchen a.W.
+Baumgartner;Simon;1b;4722;Peuerbach
+El-Sadek;Omar;1b;4710;Grieskirchen
+Engl;Jonas;1b;4084;St.Agatha
+Friedl;Michael;1b;4770;Andorf
+Friedl;Andreas;1b;4786;Brunnenthal
+Friedwagner;SanDiego;1b;4730;Waizenkirchen
+Fuchs;Marcel;1b;4723;Natternbach
+Hauser;Sophie;1b;4693;Desselbrunn
+Höfler;Gerhard;1b;4775;Taufkirchen/Pr.
+Köck;Angelika;1b;4084;St.Agatha
+Kollnberger;Thorsten;1b;4784;Schardenberg
+Kolouch;Ida;1b;4713;Gallspach
+Köstner;Niklas;1b;4090;Engelhartszell
+Luger;Niklas;1b;4721;Altschwendt
+Mühlböck;Fabian;1b;4724;Neukirchen a.W.
+Oberhumer;Simon;1b;4673;Gaspoltshofen
+Oberwagner;Laurenz;1b;4751;Dorf/Pram
+Paminger;Noah;1b;4794;Kopfing
+Perstling;Leonhard;1b;8952;Irdning
+Poxleitner;Isabel;1b;4775;Taufkirchen/Pr.
+Ringer;Julian;1b;4723;Natternbach
+Schmidmair;Leonhard;1b;4710;Grieskirchen
+Schütz;Gregor;1b;4771;Sigharting
+Spreitzer;Fabian;1b;4775;Taufkirchen/Pr.
+Valentin;Jakob;1b;4710;Grieskirchen
+Wenzlhumer;Stefan;1b;4722;Peuerbach
+Ziegler;Julian;1b;4753;Taiskirchen
+Allerstorfer;Julian;1c;4081;Hartkirchen
+Aringer-Pfaffinger;Mika;1c;5020;Salzburg
+Augsten;Clemens;1c;4702;Wallern
+Baumgartner;Valentin;1c;4720;Kallham
+Berec;Christian;1c;4710;St.Georgen
+Doppelbauer;Jonas;1c;4720;Kallham
+Gärtner;Kilian;1c;4631;Krenglbach
+Gräbel;Theodor;1c;4600;Thalheim bei Wels
+Hattinger;Jonas;1c;4702;Wallern
+Hehenberger;David;1c;4720;Neumarkt i.H.
+Hinterberger;Nico;1c;4070;Eferding
+Hofinger;Tobias;1c;4753;Taiskirchen
+Hofmair;Daniel;1c;4611;Buchkirchen
+Hrvacic;Anel;1c;4720;Neumarkt i.H.
+Humer;Simon;1c;4611;Buchkirchen
+Janotka;Colin;1c;4600;Thalheim bei Wels
+Janotka;Tim;1c;4600;Thalheim bei Wels
+Juen;Moritz;1c;4612;Scharten
+Kaltenböck;Jakob;1c;4631;Krenglbach
+Klausner;Lukas;1c;4707;Schlüßlberg
+Krempl;Samuel;1c;4701;Bad Schallerbach
+Krexhammer;Paul;1c;4702;Wallern
+Lindpointner;Tobias;1c;4710;Pollham
+Neuwirth;Simon;1c;4707;Schlüßlberg
+Platner;Tobias;1c;4633;Kematen am Innbach
+Rebenda;Tobias;1c;4641;Steinhaus
+Redl;Elias;1c;4710;Grieskirchen
+Schlager;Florian;1c;4631;Krenglbach
+Sternbauer;Jonas;1c;4720;Neumarkt i.H.
+Veseli;Enis;1c;4906;Eberschwang
+Wachter;Ian;1c;4600;Wels
+Anzengruber;Lukas;2m;4675;Weibern
+Benetseder;Leon;2m;4675;Weibern
+Cupkova;Karin;2m;4600;Wels
+Elitok;Eren;2m;4710;Grieskirchen
+Hassani;Raihana;2m;4600;Wels
+Heilig;Oliver;2m;4800;Attnang-Puchheim
+Karahodzic;Riad;2m;4710;Grieskirchen
+Koblbauer;Ilayda;2m;4710;Grieskirchen
+Mayr;Karolina;2m;4760;Raab
+Mayr;Timon;2m;4973;St.Martin i.I.
+Niedermair;Nina;2m;4720;Neumarkt i.H.
+Nöbauer;Nils;2m;4722;Peuerbach
+Schmidleitner;Matthias;2m;4710;Grieskirchen
+Schütz;Vitus;2m;4923;Lohnsburg
+Stoian;Dennis;2m;4973;St.Martin i.I.
+Varga;Justin;2m;4770;Andorf
+Almnayer;Sami;2a;4720;Neumarkt i.H.
+Bell;Philipp;2a;4676;Aistersheim
+Buchinger;Michael;2a;4794;Kopfing
+Burkot;Antoni;2a;4716;Taufkirchen/Tr.
+Dallinger;Jakob;2a;4710;Tollet
+Demiri;Vildan;2a;4600;Wels
+Doblinger;Sebastian;2a;4794;Kopfing
+Doblinger;Simone;2a;4794;Kopfing
+Ecker;Martin;2a;4713;Gallspach
+Franz;David;2a;4731;Prambachkirchen
+Freimüller;Joachim;2a;4701;Bad Schallerbach
+Füreder;Leo;2a;4600;Wels
+Greindl;Florian;2a;4713;Gallspach
+Gumpelmeier;Alessandro;2a;4715;Taufkirchen/Tr.
+Heftberger;Niklas;2a;4681;Rottenbach
+Holzinger;Justin;2a;4632;Pichl
+Hornitschek;Jakob;2a;4631;Krenglbach
+Jöchtl;Eva;2a;4921;Hohenzell
+Kainz;Tim;2a;4675;Weibern
+Kainz;Clemens;2a;4794;Kopfing
+Kaiser;Alexander;2a;4772;Lambrechten
+Krausgruber;Emil;2a;4681;Rottenbach
+Schneiderbauer;Jana;2a;4753;Taiskirchen
+Tischlinger;Jaris;2a;4782;St.Florian am Inn
+Wagner;Noah;2a;4761;Enzenkirchen
+Watzinger;Matthias;2a;4716;Taufkirchen/Tr.
+Wösenböck;Lukas;2a;4710;Grieskirchen
+Adelsgruber;Nico;2b;4722;Peuerbach
+Angerbauer;Boris;2b;4730;Waizenkirchen
+Bajtimiev;Islam;2b;4600;Wels
+Cholewa;Maciej;2b;4910;Ried i.I.
+Eder;Lukas;2b;4975;Suben
+Fischer;Philipp;2b;4723;Natternbach
+Gatterbauer;Alexander;2b;4780;Schärding
+Grabher;Lukas;2b;4611;Buchkirchen
+Hintringer;Marco;2b;4134;Putzleinsdorf
+Hladik;Elias;2b;4782;St.Florian am Inn
+Hodeib;Rayan;2b;4754;Andrichsfurt
+Höllinger;Alexander;2b;4720;Kallham
+Klaffenböck;Vinzent;2b;4780;Schärding
+Krennmeir;Maximilian;2b;4070;Fraham
+Lakoschek;Johannes;2b;4720;Neumarkt i.H.
+Lang;Felix;2b;4761;Enzenkirchen
+Leidlmair;Marc;2b;4707;Schlüßlberg
+Leßlhumer;Lukas;2b;4730;Prambachkirchen
+Maringer;Jakob;2b;4975;Suben
+Meinhart;Manuel;2b;4891;Pöndorf
+Parzer;Simon;2b;4724;Eschenau im Hausruckkreis
+Pflüglmayer;Severin;2b;4702;Wallern
+Schauer;Felix;2b;4680;Haag a.H.
+Schmidauer;Simon;2b;4722;Peuerbach
+Schneglberger;Viktor;2b;4791;Rainbach
+Steiner;Tristan;2b;4720;Kallham
+Szombati;Mate;2b;4707;Schlüßlberg
+Wurm;Maximilian;2b;4084;St.Agatha
+Aichinger;Bastian;2c;4911;Tumeltsham
+Albl;Michael;2c;4680;Haag a.H.
+Asfandyari;Erfan;2c;4910;Ried i.I.
+Brandstätter;Raphael;2c;4714;Meggenhofen
+Brunauer;Roman;2c;4911;Tumeltsham
+Burgholzer;Alexander;2c;4710;Grieskirchen
+Buttinger;Matthias;2c;4923;Lohnsburg
+Doblhammer;Marco;2c;4971;Aurolzmünster
+Druzic;Benjamin;2c;4690;Schwanenstadt
+Härtel;Emil;2c;4673;Gaspoltshofen
+Haselwanner;Matthias;2c;4742;Pram
+Haslinger;Robin;2c;4673;Gaspoltshofen
+Kaiser;Daniel;2c;4901;Ottnang
+Koppelstätter;Simon;2c;4974;Reichersberg
+Kuruel;Ugur;2c;4760;Raab
+Oberhumer;Florian;2c;4673;Gaspoltshofen
+Oberhumer;Noah;2c;4674;Altenhof am Hausruck
+Oravecz;Mark;2c;4942;Gurten
+Rexha;Enis;2c;4070;Eferding
+Schröcker;Noah;2c;4970;Eitzing
+Schroll;Rene;2c;4771;Sigharting
+Seifriedsberger;Daniel;2c;4906;Eberschwang
+Staudinger;Alexander;2c;4710;Tollet
+Stranzinger;Max;2c;4910;Ried i.I.
+Swoboda;Nikodemus;2c;4921;Hohenzell
+Waldhör;Felix;2c;4911;Tumeltsham
+Westermayer;Niklas;2c;4973;St.Martin i.I.
+Wimplinger;Felix;2c;4910;Ried i.I.
+Aschauer;Benedikt;3m;4941;Mehrnbach
+Codroiu;Jasmin;3m;4910;Ried i.I.
+Dommert;Jan;3m;4611;Buchkirchen
+Foric;Din;3m;4941;Mehrnbach
+Hauser;Samuel;3m;4693;Desselbrunn
+Heim;Nadine;3m;4616;Weisskirchen/Traun
+Holzinger;Alexander Karl;3m;4902;Wolfsegg a.H.
+Jusic;Amar;3m;4713;Gallspach
+Langmair;Emil;3m;4971;Aurolzmünster
+Mayer;Lukas;3m;4702;Wallern
+Nixon;Cara;3m;4753;Taiskirchen
+Nöhammer;Daniel;3m;4723;Natternbach
+Reischl;Michael;3m;4752;Riedau
+Richter;Jannek;3m;4770;Andorf
+Schick;Sophie;3m;4070;Fraham
+Sonnleitner;Nathalie;3m;4716;Taufkirchen/Tr.
+Spreitzer;Emil;3m;4753;Taiskirchen
+Straif;Jonas;3m;4710;Grieskirchen
+Strobl;Samuel;3m;4800;Attnang-Puchheim
+Thiem;Niklas;3m;4710;Grieskirchen
+Wageneder;David;3m;4753;Taiskirchen
+Augustin;Cedric;3a;4600;Thalheim bei Wels
+Binder;Moritz;3a;4621;Leombach
+Feichtlbauer;Benjamin;3a;4770;Andorf
+Freitag;Raphael;3a;4760;Raab
+Gattermann;Konrad;3a;4791;Rainbach
+Grüneis;Matthias;3a;4761;Enzenkirchen
+Hellwagner;Lukas;3a;4755;Zell/Pram
+Künzel;Luca;3a;4050;Traun
+Mayer;Jasmin;3a;4673;Gaspoltshofen
+Moritz;Christoph;3a;4774;St. Marienkirchen/Sch.
+Oberbauer;Philipp;3a;4673;Gaspoltshofen
+Oberndorfer;Noah;3a;4714;Meggenhofen
+Oberroither;Leonie;3a;4714;Meggenhofen
+Ortner;Kai;3a;4611;Buchkirchen
+Ramadani;Shuajb;3a;4600;Wels
+Reiter;Simon;3a;4783;Wernstein
+Reitinger;Moritz;3a;4761;Enzenkirchen
+Sarlak;Yunusemre;3a;4971;Aurolzmünster
+Simmer;Dominik;3a;4714;Meggenhofen
+Wiesinger;Stefan;3a;4631;Krenglbach
+Wintereder;Martin;3a;4770;Andorf
+Wintersteiger;Jakob;3a;4692;Niederthalheim
+Witzeneder;Allegra;3a;4762;St. Willibald
+Berghammer;Thomas;3b;4771;Sigharting
+Geyerhofer;Jakob;3b;4926;St.Marienkirchen/H.
+Gründlinger;Michael;3b;4741;Wendling
+Gurtner;Alois;3b;4973;St.Martin i.I.
+Hafner;Leonie;3b;4722;Peuerbach
+Hofstätter;Veronika;3b;5251;Höhnhart
+Höller;Tobias;3b;4720;Kallham
+Hosner;Noah;3b;4922;Geiersberg
+Kreuzhuber;Jonas;3b;4753;Taiskirchen
+Özdemir;Volkan;3b;4722;Peuerbach
+Reisinger;Sebastian;3b;4772;Lambrechten
+Reitböck;Timo;3b;4680;Haag a.H.
+Saurer;Pascal;3b;4753;Taiskirchen
+Schachl;Valentina;3b;4931;Mettmach
+Schneglberger;Lukas;3b;4753;Taiskirchen
+Schnötzlinger;Florian;3b;4926;St.Marienkirchen/H.
+Sultanbekov;Mansur;3b;4910;Ried i.I.
+Wageneder;Niklas;3b;4753;Taiskirchen
+Wageneder;Simon;3b;4906;Eberschwang
+Zahrhuber;Valentin;3b;4720;Neumarkt i.H.
+Zeppetzauer;Timo;3b;4973;St.Martin i.I.
+Ablinger;Paul;3c;4710;St.Georgen
+Bade;Armin;3c;4713;Gallspach
+Barakat;Delsher;3c;4082;Aschach
+Berger;Felix;3c;4794;Kopfing
+Dekker;Florian;3c;4794;Kopfing
+Eder;Simon;3c;4775;Taufkirchen/Pr.
+Erdpresser;Lukas;3c;4076;St.Marienkirchen/P.
+Gierlinger;Jakob;3c;4074;Stroheim
+Hager;Sebastian;3c;4710;Grieskirchen
+Haider;Niklas;3c;4084;St.Agatha
+Heumel;Ralf;3c;4730;Waizenkirchen
+Hinteregger;Jeronimo;3c;4715;Taufkirchen/Tr.
+Höckner;Sascha;3c;4730;Waizenkirchen
+Kaliuzhnyi;Vadym;3c;4076;St.Marienkirchen/P.
+Kaltseis;Sebastian;3c;4084;St.Agatha
+Keiser;Patrice;3c;4725;St. Aegidi
+Kohlbauer;Simon;3c;4776;Diersbach
+Mayr;Jonas;3c;4710;Grieskirchen
+Neuwirth;Fabian;3c;4707;Schlüßlberg
+Reinthaler;Lukas;3c;4092;Esternberg
+Roitinger;David;3c;4675;Weibern
+Sipura;Antonio;3c;4710;Grieskirchen
+Unterberger;Fabian;3c;4710;Tollet
+Wimmer;David;3c;4707;Schlüßlberg
+Zimmermann;Gabriel;3c;4724;Neukirchen a.W.
+Allerstorfer;Tobias;4m;4081;Hartkirchen
+Daka;Flora;4m;4710;Grieskirchen
+Eppensteiner;Kevin;4m;4623;Gunskirchen
+Haupert;Ben;4m;4600;Wels
+Himmelbauer;Elisabeth;4m;4631;Krenglbach
+Hinterleitner;Thomas;4m;4770;Andorf
+Höhfurtner;Klaus;4m;4751;Dorf/Pram
+Hörleinsberger;Magdalena;4m;4714;Meggenhofen
+Jäger;Lukas;4m;4723;Natternbach
+Kislinger;Simon;4m;4760;Raab
+Lang-Schneider;Sebastian;4m;4742;Pram
+Mistlberger;Ralph;4m;4600;Wels
+Rebhan;Manuela;4m;4720;Neumarkt i.H.
+Rosenzopf;Maximilian;4m;4600;Wels
+Scheibmayr;Julian;4m;4682;Geboltskirchen
+Thalhammer;Kevin;4m;4682;Geboltskirchen
+Wagner;Kilian;4m;4713;Gallspach
+Weißenböck;Celina;4m;4701;Bad Schallerbach
+Wieshammer;Lukas;4m;4974;Ort i.I.
+Aigner;Michael;4a;4680;Haag a.H.
+Augustin;Florian;4a;4971;Aurolzmünster
+Duranovic;Enis;4a;4680;Haag a.H.
+Fillip;Sebastian;4a;4623;Gunskirchen
+Frühauf;Bastian;4a;4972;Utzenaich
+Gaisböck;Fabian;4a;4910;Ried i.I.
+Gritsch;Maximilian;4a;4910;Ried i.I.
+Hartl;Paul;4a;4742;Pram
+Högler;Manuel;4a;4910;Ried i.I.
+Kamer;Emilio;4a;5121;Tarsdorf
+Leuchtenmüller;Moritz;4a;4675;Weibern
+Loidl;Julian;4a;4710;Tollet
+Mayer;Paul;4a;4715;Taufkirchen/Tr.
+Oberndorfer;Fabian;4a;4716;Taufkirchen/Tr.
+Ongun;Elias;4a;4680;Haag a.H.
+Pramendorfer;Michael;4a;4906;Eberschwang
+Raith;Sebastian;4a;4971;Aurolzmünster
+Schröcker;Elias;4a;4970;Eitzing
+Suljkanovic;Anel;4a;4971;Aurolzmünster
+Thalbauer;Jonathan;4a;4971;Aurolzmünster
+Vucak;David;4a;4623;Gunskirchen
+Watzenböck;Paul;4a;4730;Waizenkirchen
+Weigert;Felix;4a;4910;Ried i.I.
+Wimmer;Daniel;4a;4681;Rottenbach
+Wintereder;Max;4a;4770;Andorf
+Anzengruber;Jakob;4b;4720;Kallham
+Burgholzer;Paul;4b;4720;Pötting
+Christian;Benedikt;4b;4730;Waizenkirchen
+Daurer;Michael;4b;4780;Schärding
+Eder;Jonas;4b;4783;Wernstein
+Gumpinger;Matthias;4b;4794;Kopfing
+Hochmair;Lea;4b;4632;Pichl
+Hofinger;Tobias;4b;4720;Kallham
+Kothbauer;Gabriel;4b;4792;Münzkirchen
+Kreuzhuber;David;4b;4751;Dorf/Pram
+Majer;Samuel;4b;4092;Esternberg
+Noniewicz;Kacper;4b;4730;Waizenkirchen
+Ortner;Elias;4b;4710;Grieskirchen
+Part;Paula;4b;4782;St.Florian am Inn
+Pointner;Jakob;4b;4083;Haibach
+Praher;Anna;4b;4730;Waizenkirchen
+Pühretmayr;Jonas;4b;4724;Neukirchen a.W.
+Reisinger;Leon;4b;4720;Kallham
+Schaur;Fabian;4b;4926;St.Marienkirchen/H.
+Schiffelhumer;Tobias;4b;4753;Taiskirchen
+Spieler;Ramon;4b;4783;Wernstein
+Starck;Jonas;4b;4911;Tumeltsham
+Steindl;Nic;4b;4083;Haibach
+Tischler;Michel;4b;4975;Suben
+Weidenholzer;Florian;4b;4722;Peuerbach
+Zweimüller;Michael;4b;4682;Geboltskirchen
+Baumgartner;Julian;4c;4641;Steinhaus
+Chen;Kevin;4c;4820;Bad Ischl
+Golub;Petar;4c;4710;Grieskirchen
+Gschwendtner;Jakob;4c;4081;Hartkirchen
+Gutjahr;Tamino;4c;4600;Wels
+Hofmanninger;Florian;4c;4902;Wolfsegg a.H.
+Ivanovic;Petar;4c;4713;Gallspach
+Jungheinrich;Jan;4c;4600;Wels
+Kammerer;Maximilian;4c;4722;Peuerbach
+Kast;Maximilian;4c;4070;Hinzenbach
+Kinzl;Emil;4c;4722;Peuerbach
+Kogler;David;4c;4600;Wels
+Kogler;Matthias;4c;4600;Wels
+Luger;Simon;4c;4070;Eferding
+Maria;Andrei-Armand;4c;4902;Wolfsegg a.H.
+Mattle;Benjamin;4c;4722;Peuerbach
+Voitl;Jonas;4c;4632;Pichl
+Wilflingseder;Lukas;4c;4641;Steinhaus
+Yilmaz;Kaan;4c;4710;St.Georgen
+Zecher;Julian;4c;4632;Pichl
+Albrecht;Lili;5m;4752;Riedau
+Bachinger;Julian;5m;4707;Schlüßlberg
+Bell;Christine;5m;4741;Wendling
+Edthaler;David;5m;4794;Kopfing
+Ferihumer;Daniel;5m;4724;Neukirchen a.W.
+Fuchs;Lena;5m;4682;Geboltskirchen
+Großpötzl;Valentina;5m;4770;Andorf
+Nimmerfall;Thomas;5m;4710;St.Georgen
+Peko;Tim;5m;4702;Wallern
+Rathmair;David;5m;4070;Eferding
+Schmidleitner;Lukas;5m;4710;Grieskirchen
+Schönleitner;Sebastian;5m;4902;Wolfsegg a.H.
+Stadlbauer;Anna;5m;4710;Grieskirchen
+Stockinger;Valentin;5m;4923;Lohnsburg
+Süss;Samuel;5m;4753;Taiskirchen
+Wernsdorfer;Dominik;5m;4600;Schleißheim
+Auer;Florian;5a;4730;Waizenkirchen
+Baumann;David;5a;4770;Andorf
+Berndl;Julian;5a;4792;Münzkirchen
+Edinger;Teresa;5a;4731;Prambachkirchen
+Eglesfurtner;Thomas;5a;4084;St.Agatha
+Geßl;Stefan;5a;4720;Kallham
+Gittmaier;Lukas;5a;4926;St.Marienkirchen/H.
+Hartl;Maximilian;5a;4722;Peuerbach
+Holzmann;Lisa;5a;4675;Weibern
+Jetzinger;Jan;5a;4906;Eberschwang
+Kaufmann;Florian;5a;4722;Peuerbach
+Kellermayr;Jonas;5a;4084;St.Agatha
+Kepplinger;Lukas;5a;4070;Eferding
+Lindner;Alexander;5a;4720;Kallham
+Mair;Simon;5a;4761;Enzenkirchen
+Matheis;Vanessa;5a;4926;St.Marienkirchen/H.
+Nistelberger;Raffael;5a;4084;St.Agatha
+Obermüller;Ben;5a;4083;Haibach
+Reiter;Elias;5a;4070;Eferding
+Sahdanovic;Halil;5a;4680;Haag a.H.
+Schmidbauer;Gabriel;5a;4710;Grieskirchen
+Trinkfass;Lisa;5a;4715;Taufkirchen/Tr.
+Weiß;David;5a;4776;Diersbach
+Aigner;Andreas;5b;4702;Wallern
+Aspöck;Elias;5b;4921;Hohenzell
+Einböck;Franz;5b;4980;Antiesenhofen
+Feichtlbauer;Simon;5b;4772;Lambrechten
+Fischer;Fabian;5b;4925;Pramet
+Greinecker;Sandro;5b;4702;Wallern
+Gurtner;Fabian;5b;4932;Kirchheim
+Kagerer;AnnaLena;5b;4761;Enzenkirchen
+Mayr;Sarah;5b;4973;Senftenbach
+Nadler;Florian;5b;4925;Pramet
+Neißl;Janik;5b;4921;Hohenzell
+Nöbauer;Sarah;5b;4632;Pichl
+Schallmeiner;Alexander;5b;4910;Ried i.I.
+Scheiböck;Klaus;5b;4632;Pichl
+Schönberger;Fabian;5b;4981;Reichersberg
+Schwendtner;Jan;5b;4910;Ried i.I.
+Seifried;Lea;5b;4924;Waldzell
+Stranzinger;Lukas;5b;4971;Aurolzmünster
+Sturm;Tim;5b;4611;Buchkirchen
+Ungar;Michael;5b;4932;Kirchheim
+Wimmer;Tobias;5b;4743;Peterskirchen
+Wimmer;Tamara;5b;4783;Wernstein
+Brunmaier;Maximilian;5c;4082;Aschach
+Furjan;Thomas;5c;4623;Gunskirchen
+Gierlinger;Samuel;5c;4074;Stroheim
+Greiner;Valentin;5c;4777;Mayrhof
+Hackenbuchner;Moritz;5c;4752;Riedau
+Hasibeder;Bruno;5c;4941;Mehrnbach
+Kronlachner;Lucas;5c;4631;Krenglbach
+Mair;Julian;5c;4673;Gaspoltshofen
+Mayr;Daniel;5c;4720;Pötting
+Neulinger;Erik;5c;4632;Pichl
+Ölmez;Ozan;5c;4713;Gallspach
+Panic;Leonhard;5c;4600;Wels
+Peterstorfer;Rafael;5c;4081;Hartkirchen
+Reitmann;Simon;5c;4600;Wels
+Ruttinger;Elias;5c;4760;Raab
+Sageder;Moritz;5c;4770;Andorf
+Stadlbauer;Matthias;5c;4623;Gunskirchen
+Strasser;Martin;5c;4725;St. Aegidi
+Thanner;Julian;5c;4710;Tollet
+Tomandl;Marcus;5c;4752;Riedau
+Weiß;Michael;5c;4631;Krenglbach

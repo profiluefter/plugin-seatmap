@@ -1,0 +1,23 @@
+<table *ngIf="nrRows>0">
+  <tr *ngFor="let row of rows">
+    <td *ngFor="let col of cols">
+      <div class="cell grid grid-rows-4 grid-cols-2 gap-1 items-end content-end"
+           [ngClass]="getCss(row,col)"
+           (mouseenter)="drop(row,col)"
+           (dblclick)="toggleIsBlocked(row,col)">
+        <span class="col-span-2" [class.brushStudent]="getStudentName(row,col)">{{getStudentName(row,col)}}</span>
+        <span class="row-span-3 seat-pill">
+          <span *ngIf="getTitle(row,col)" class="seat-title">{{getTitle(row,col)}}</span>
+        </span>
+        <span class="row-span-3">
+          <img *ngIf="getImagePath(row,col)"
+               (mousedown)="startDrag(row,col)"
+               class="student-image"
+               [src]="getImagePath(row,col)" />
+        </span>
+      </div>
+    </td>
+  </tr>
+</table>
+<!-- {{rows|json}} -->
+<!-- https://stackblitz.com/edit/angular-draw-on-canvas?file=src%2Fapp%2Fcanvas.component.ts -->
