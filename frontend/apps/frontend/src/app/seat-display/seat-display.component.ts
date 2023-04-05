@@ -14,7 +14,7 @@ export class SeatDisplayComponent implements OnInit {
   nrRows = 0;
   nrCols = 0;
   _rowHeight = 0;
-  _seatWithStudentsMap: { [key: string]: SeatWithStudent } = {};
+  _seatWithStudentsMap: Record<string, SeatWithStudent> = {};
 
   constructor(
     private datashare: DatashareService,

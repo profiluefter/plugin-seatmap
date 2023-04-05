@@ -8,6 +8,7 @@ import { DatePipe } from '@angular/common';
 import { saveAs } from 'file-saver';
 import { NgxCaptureService } from 'ngx-capture';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { group } from 'console';
 
 const defaultUrl = 'http://localhost:5000';
 
@@ -27,7 +28,7 @@ export class AppComponent implements OnInit {
   roomNames: string[] = [];
   selectedRoomName = '';
   seatsOfCurrentRoom: SeatDto[] = [];
-  roomCache: { [key: string]: SeatDto[] } = {};
+  roomCache: Record<string, SeatDto[]> = {};
   isFileImportVisible = false;
   isGeneratingWordFile = false;
 
@@ -45,15 +46,6 @@ export class AppComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    // const httpOptions = {
-    //   headers: new HttpHeaders({
-    //     'Accept': 'application/octet-stream',
-    //   }),
-    //   responseType: 'blob' as 'json',
-    // };
-    // const url = 'https://localhost:7226/ReadFile?fileName=quaxi.docx&fullPath=C:/Users/Besitzer/Desktop/quaxi.docx';
-    // this.http.get(url, httpOptions)
-    //   .subscribe(_ => console.log('xxxxxxxxxxxxxxxxxxxxxx'));
     this.csvService.classesGet().pipe(
       tap(x => this.clazzNames = x.select(x => x.name)),
       tap(_ => console.log('clazzes read')),
@@ -101,14 +93,36 @@ export class AppComponent implements OnInit {
     );
     return observable;
   }
+
+  private shareStudentsByName(studentNames: string[]): void {
+    //Note: this function is required to select students with duplicate names in different classes (e.g. Sarah Mayr)
+    //      to select the correct one
+    // - first read only students of selected class
+    // - if names are found, that are not in this class add them
+    const studentsSelectedNames = this.allStudents.where(x => studentNames.indexOf(x.displayString) >= 0);
+    const studentsSelectedOfCurrentClass = studentsSelectedNames.where(x => x.clazzName == this.selectedClazzName);
+    const studentNamesOfOtherClass = studentNames
+      .where(x => studentsSelectedOfCurrentClass.select(x => x.displayString).indexOf(x) < 0);
+    const studentsSelectedOfOtherClass = this.allStudents
+      .where(x => studentNames.indexOf(x.displayString) >= 0
+        && studentsSelectedOfCurrentClass.select(y => y.displayString).indexOf(x.displayString) < 0
+        && x.clazzName !== this.selectedClazzName);
+    if (studentNamesOfOtherClass.length !== 0) {
+      console.log('******************** students of another class found');
+      for (const student of studentsSelectedOfOtherClass) {
+        console.log(`  adding: ${student.displayString} of class ${student.clazzName}`);
+        studentsSelectedOfCurrentClass.push(student);
+      }
+    }
+    this.datashare.currentStudents = studentsSelectedOfCurrentClass;
+  }
+
   refresh(): void {
     console.log(`refresh ${this.selectedRoomName}`);
     if (this.selectedRoomName === '') return;
     const studentNames = this.getStudentNamesAsList();
     console.log(`refresh for ${studentNames.length} students`);
-    this.datashare.currentStudents = this.allStudents
-      .where(x => studentNames.indexOf(x.displayString) >= 0)
-      .distinctBy(x => x.displayString);
+    this.shareStudentsByName(studentNames);
   }
 
   exportCsv(): void {
@@ -173,14 +187,12 @@ export class AppComponent implements OnInit {
         return obj;
       });
     const studentNames = csvData.select(x => x.studentName).distinct();
-    this.datashare.currentStudents = this.allStudents
-      .where(x => studentNames.indexOf(x.displayString) >= 0)
-      .distinctBy(x => x.displayString);
+    this.shareStudentsByName(studentNames);
     this.transformCurrentStudentsToModelString();
     this.useRoom(roomName).subscribe(seatsOfCurrentRoom => {
-      const studentNameOfSeat: { [key: number]: string } = csvData.toDictionary(x => x.seatNr, x => x.studentName);
+      const studentNameOfSeat: Record<number, string> = csvData.toDictionary(x => x.seatNr, x => x.studentName);
       const occupiedSeatNrs: number[] = Object.keys(studentNameOfSeat).select(x => +x);
-      const seatWithStudentsMap: { [key: string]: SeatWithStudent } = {};
+      const seatWithStudentsMap: Record<string, SeatWithStudent> = {};
       for (let seatNr of occupiedSeatNrs) {
         const seat = seatsOfCurrentRoom.where(y => y.nr === seatNr)[0];
         const student: StudentDecorator = this.datashare.currentStudents.where(x => x.displayString === studentNameOfSeat[seatNr])[0];//don't use first here, because of 'this' pointer
