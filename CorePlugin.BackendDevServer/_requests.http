@@ -5,8 +5,12 @@
 GET {{baseUrl}}/classes
 #####
 
-################################################## Create
-POST {{baseUrl}}/Create
+################################################## Pdf
+GET {{baseUrl}}/Pdf/DownloadTestFile
+#####
+GET {{baseUrl}}/Pdf/ReadFile?fileName=abc&fullPath=abc
+#####
+POST {{baseUrl}}/Pdf/Create
 Content-type: application/json
 
 {
@@ -19,14 +23,6 @@ Content-type: application/json
       "pcNr": 1
    }]
 }
-#####
-
-################################################## DownloadTestFile
-GET {{baseUrl}}/DownloadTestFile
-#####
-
-################################################## ReadFile
-GET {{baseUrl}}/ReadFile?fileName=abc&fullPath=abc
 #####
 
 ################################################## rooms

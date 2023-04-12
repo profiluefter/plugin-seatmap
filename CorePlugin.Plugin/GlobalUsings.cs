@@ -23,4 +23,4 @@ global using CorePlugin.Plugin.Dtos;
 global using CorePlugin.Plugin.Models;
 //global using CorePlugin.Plugin.Entities;
 //global using CorePlugin.Plugin.Hubs;
-global using CorePlugin.Plugin.Services;
+//global using CorePlugin.Plugin.Services;

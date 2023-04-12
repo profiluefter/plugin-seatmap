@@ -14,7 +14,7 @@
     <img src="assets/export-csv.png" class="button-icon" (click)="exportCsv()" />
   </button>
   <button class="1/10">
-    <img src="assets/export-word.png" class="button-icon" (click)="exportWord()" />
+    <img src="assets/export-pdf.png" class="button-icon" (click)="exportPdf()" />
   </button>
   <span class="w-4/10">
     <button class="inline bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-2 rounded"
@@ -53,5 +53,5 @@
         (click)="makeImage()">makeImage</button>
 <img src="{{img}}" /> -->
 <div *ngIf="isGeneratingWordFile" class="absolute bg-gray-400/60 inset-0 flex justify-center items-center z-10">
-  <p class="text-4xl text-black-800 font-bold">Word-File wird erzeugt...</p>
+  <p class="text-4xl text-black-800 font-bold">PDF-File wird erzeugt...</p>
 </div>

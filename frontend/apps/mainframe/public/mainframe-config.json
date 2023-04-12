@@ -1,0 +1,11 @@
+"url": "https://localhost:7226",
+"repoUrl": "URL vom Github Repo des Plugins",
+"info": {
+   "name": "SeatMap",
+   "description": "App zum Erstellen eines zufülligen Sitzplans in verschiedenen EDV-Räumen",
+   "teachers": "alle Lehrer",
+   "tags": "Schularbeit, PLF, Test, Sitzplan",
+   "startDate": 1693519200,
+   "endDate": 1720994400,
+   "image": "URL zum Logo des Plugins"
+}

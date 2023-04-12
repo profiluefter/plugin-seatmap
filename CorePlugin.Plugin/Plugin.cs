@@ -19,8 +19,6 @@ public class Plugin : ICorePlugin
           .SetFilename(restClientFilename)
           .SetAction($"swagger/v1/swagger.json")
         );
-
-        builder.Services.AddSingleton<WordInteropService>();
     }
 
     public void Configure(WebApplication app)

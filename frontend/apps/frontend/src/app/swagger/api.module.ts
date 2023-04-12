@@ -3,8 +3,8 @@ import { Configuration } from './configuration';
 import { HttpClient } from '@angular/common/http';
 
 import { CsvService } from './api/csv.service';
+import { PdfService } from './api/pdf.service';
 import { ValuesService } from './api/values.service';
-import { WordService } from './api/word.service';
 
 @NgModule({
   imports:      [],

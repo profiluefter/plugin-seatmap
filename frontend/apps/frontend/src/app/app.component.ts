@@ -3,12 +3,11 @@ import { Observable, from, map, of, share, switchMap, tap } from 'rxjs';
 import { DatashareService } from './core/datashare.service';
 import { SeatWithStudent } from './models/seat-with-student';
 import { StudentDecorator } from './models/student-decorator';
-import { BASE_PATH, CsvService, FileDto, SeatDto, WinWordDto, WordService } from './swagger';
+import { BASE_PATH, CsvService, FileDto, PdfService, SeatDto, FileGenerationDataDto } from './swagger';
 import { DatePipe } from '@angular/common';
 import { saveAs } from 'file-saver';
 import { NgxCaptureService } from 'ngx-capture';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { group } from 'console';
 
 const defaultUrl = 'http://localhost:5000';
 
@@ -35,7 +34,7 @@ export class AppComponent implements OnInit {
   constructor(
     @Inject(BASE_PATH) baseUrl: string,
     private csvService: CsvService,
-    private wordService: WordService,
+    private pdfService: PdfService,
     private datashare: DatashareService,
     private datePipe: DatePipe,
     private captureService: NgxCaptureService,
@@ -224,13 +223,13 @@ export class AppComponent implements OnInit {
       .subscribe();
   }
 
-  exportWord(): void {
+  exportPdf(): void {
     this.isGeneratingWordFile = true
     const studentPcList = this.datashare.assignedSeats
       .select(x => { return { pcNr: x.seat.nr, studentName: x.studentName }; });
     // console.log(JSON.stringify(studentPcList, null, 2))
     console.log(`creating wordfile for ${studentPcList.length} students`);
-    const winWordDto: WinWordDto = {
+    const fileGenerationDataDto: FileGenerationDataDto = {
       imageBase64: '',
       clazzName: this.selectedClazzName,
       roomName: this.selectedRoomName,
@@ -246,14 +245,13 @@ export class AppComponent implements OnInit {
     this.captureService
       .getImage(this.screen.nativeElement, true)
       .pipe(
-        tap(img => winWordDto.imageBase64 = img,),
-        // tap(x => console.log(JSON.stringify(x, null, 2))),
-        switchMap(_ => this.wordService.createPost(winWordDto)),
+        tap(img => fileGenerationDataDto.imageBase64 = img,),
+        switchMap(_ => this.pdfService.pdfCreatePost(fileGenerationDataDto)),
         tap((x: FileDto) => console.log(`wordfile ${x.fileName} created on backend`)),
         tap((x: FileDto) => saveFileName = x.fileName),
 
-        // switchMap(x => this.wordService.readFileGet(x.fileName, x.fullPath)) //does not work
-        map(x => `${this.backendUrl}/ReadFile?fileName=${x.fileName}&fullPath=${x.fullPath}`),
+        // switchMap(x => this.pdfService.readFileGet(x.fileName, x.fullPath)) //does not work
+        map(x => `${this.backendUrl}/pdf/ReadFile?fileName=${x.fileName}&fullPath=${x.fullPath}`),
         switchMap(url => this.http.get(url, httpOptions))
       )
       .subscribe((data: any) => {

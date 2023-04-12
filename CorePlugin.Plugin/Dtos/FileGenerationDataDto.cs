@@ -1,6 +1,6 @@
 ﻿namespace CorePlugin.Plugin.Dtos;
 
-public class WinWordDto
+public class FileGenerationDataDto
 {
     public class StudentPc
     {

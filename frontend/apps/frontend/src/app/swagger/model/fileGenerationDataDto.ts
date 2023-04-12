@@ -12,7 +12,7 @@
 import { StudentPc } from './studentPc';
 
 
-export interface WinWordDto {
+export interface FileGenerationDataDto {
     clazzName: string;
     roomName: string;
     imageBase64: string;
