@@ -245,9 +245,10 @@ export class AppComponent implements OnInit {
     this.captureService
       .getImage(this.screen.nativeElement, true)
       .pipe(
+        // tap(img => console.log(img)),
         tap(img => fileGenerationDataDto.imageBase64 = img,),
         switchMap(_ => this.pdfService.pdfCreatePost(fileGenerationDataDto)),
-        tap((x: FileDto) => console.log(`wordfile ${x.fileName} created on backend`)),
+        tap((x: FileDto) => console.log(`file ${x.fileName} created on backend`)),
         tap((x: FileDto) => saveFileName = x.fileName),
 
         // switchMap(x => this.pdfService.readFileGet(x.fileName, x.fullPath)) //does not work
