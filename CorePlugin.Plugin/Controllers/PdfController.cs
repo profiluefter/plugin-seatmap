@@ -37,18 +37,17 @@ public class PdfController : ControllerBase
     [HttpGet("DownloadTestFile")]
     public async Task<FileContentResult> ReturnByteArray()
     {
-        string html = """
-       <!DOCTYPE html>
-       <html lang="en">
-       <head>
-           This is the header of this document.
-       </head>
-      <body>
-      <h1>This is the heading for demonstration purposes only.</h1>
-      <p>This is a line of text for demonstration purposes only.</p>
-      </body>
-      </html>
-      """;
+        string html = ""
+       + "<!DOCTYPE html>"
+       + "<html lang=\"en\">"
+       + "<head>"
+       + "    This is the header of this document."
+       + "</head>"
+       + "<body>"
+       + "<h1>This is the heading for demonstration purposes only.</h1>"
+       + "<p>This is a line of text for demonstration purposes only.</p>"
+       + "</body>"
+       + "</html>";
 
         string folder = Path.Combine(Path.GetDirectoryName(Assembly.GetEntryAssembly()!.Location)!, "generatedDocs");
         string filename = "quaxi.pdf";
