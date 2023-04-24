@@ -3,8 +3,6 @@ using CorePlugin.Plugin;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(x => x.AddSwaggerGenHeader());
@@ -36,6 +34,7 @@ app.UseCors(x => x.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 
 app.UseHttpsRedirection();
 app.UseRouting();
+app.UseAuthentication();
 app.UseAuthorization();
 
 plugin.Configure(app);

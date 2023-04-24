@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { DatashareService } from '../core/datashare.service';
-import { SeatDto } from '../swagger';
 import { Position } from './position';
 import { SeatWithStudent } from '../models/seat-with-student';
+import { SeatDto } from '../backend';
 
 @Component({
   selector: 'app-seat-display',

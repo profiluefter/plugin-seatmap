@@ -1,4 +1,4 @@
-import { StudentDto } from "../swagger";
+import { StudentDto } from "../backend";
 
 export class StudentDecorator implements StudentDto {
   private _studentDto: StudentDto = null!;

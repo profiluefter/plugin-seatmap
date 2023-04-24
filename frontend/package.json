@@ -8,7 +8,8 @@
     "build": "nx build",
     "watch": "nx build --watch --configuration development",
     "test": "nx test",
-    "postinstall": "node ./decorate-angular-cli.js"
+    "postinstall": "node ./decorate-angular-cli.js",
+    "apiGen": "openapi-generator-cli generate --generator-key angular"
   },
   "private": true,
   "dependencies": {
@@ -23,6 +24,7 @@
     "@nrwl/angular": "15.0.13",
     "file-saver": "^2.0.5",
     "ngx-capture": "^0.12.2",
+    "jwt-decode": "^3.1.2",
     "rxjs": "~7.5.0",
     "tailwindcss": "^3.2.1",
     "tslib": "^2.3.0",

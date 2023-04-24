@@ -3,7 +3,7 @@ import { Observable, from, map, of, share, switchMap, tap } from 'rxjs';
 import { DatashareService } from './core/datashare.service';
 import { SeatWithStudent } from './models/seat-with-student';
 import { StudentDecorator } from './models/student-decorator';
-import { BASE_PATH, CsvService, FileDto, PdfService, SeatDto, FileGenerationDataDto } from './swagger';
+import { Configuration, CsvService, FileDto, PdfService, SeatDto, FileGenerationDataDto } from './backend';
 import { DatePipe } from '@angular/common';
 import { saveAs } from 'file-saver';
 import { NgxCaptureService } from 'ngx-capture';
@@ -32,7 +32,8 @@ export class AppComponent implements OnInit {
   isGeneratingWordFile = false;
 
   constructor(
-    @Inject(BASE_PATH) baseUrl: string,
+    // @Inject(BASE_PATH) baseUrl: string,
+    private configuration: Configuration,
     private csvService: CsvService,
     private pdfService: PdfService,
     private datashare: DatashareService,
@@ -40,7 +41,7 @@ export class AppComponent implements OnInit {
     private captureService: NgxCaptureService,
     private http: HttpClient,
   ) {
-    if (baseUrl) this.backendUrl = baseUrl;
+    if (this.configuration?.basePath) this.backendUrl = this.configuration.basePath;
     console.log(`backendUrl=${this.backendUrl}`);
   }
 

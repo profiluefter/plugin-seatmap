@@ -29,6 +29,12 @@ Content-type: application/json
 GET {{baseUrl}}/rooms
 #####
 
+################################################## Sample
+GET {{baseUrl}}/Sample/AuthorizeTest
+#####
+GET {{baseUrl}}/Sample/Test
+#####
+
 ################################################## seats
 GET {{baseUrl}}/seats?roomName=abc
 #####

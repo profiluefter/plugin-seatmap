@@ -1,5 +1,5 @@
+import { SeatDto } from "../backend";
 import { StudentDecorator } from "../models/student-decorator";
-import { SeatDto } from "../swagger";
 
 export class SeatWithStudent {
   seat: SeatDto = null!;

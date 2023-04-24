@@ -1,10 +1,10 @@
 .gitignore
-.openapi-generator-ignore
 README.md
 api.module.ts
 api/api.ts
 api/csv.service.ts
 api/pdf.service.ts
+api/sample.service.ts
 api/values.service.ts
 configuration.ts
 encoder.ts
@@ -16,6 +16,7 @@ model/fileGenerationDataDto.ts
 model/models.ts
 model/okStatus.ts
 model/roomDto.ts
+model/sampleDto.ts
 model/seatDto.ts
 model/studentDto.ts
 model/studentPc.ts

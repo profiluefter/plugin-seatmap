@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { Observable, Subject } from 'rxjs';
 import { SeatWithStudent } from '../models/seat-with-student';
 import { StudentDecorator } from '../models/student-decorator';
-import { SeatDto } from '../swagger';
+import { SeatDto } from '../backend';
 
 @Injectable({
   providedIn: 'root'

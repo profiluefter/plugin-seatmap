@@ -2,11 +2,11 @@
   "$schema": "./node_modules/@openapitools/openapi-generator-cli/config.schema.json",
   "spaces": 2,
   "generator-cli": {
-    "version": "6.4.0",
+    "version": "6.5.0",
     "generators": {
       "angular": {
         "generatorName": "typescript-angular",
-        "output": "./apps/frontend/src/app/swagger",
+        "output": "./apps/frontend/src/app/backend",
         "inputSpec": "http://localhost:5208/swagger/v1/swagger.json"
       }
     }
